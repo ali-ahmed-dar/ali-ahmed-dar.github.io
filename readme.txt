@@ -1,6 +1,6 @@
 ==================================================================================================
 
-Hi, this is Ali Ahmed Dar here, a Security Engineer, skilled in detection and monitoring of cyber threats equipped with the passion of strengthening organizational defenses and optimizing incident response.
+Hi, this is Ali Ahmed Dar here, a Security Engineer, skilled in the detection and monitoring of cyber threats - equipped with a passion for strengthening organizational defenses and optimizing incident response.
 
 ==================================================================================================
 
