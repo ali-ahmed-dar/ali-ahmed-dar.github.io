@@ -471,10 +471,10 @@
                         <div class="column large-12 medium-6 tab-12">
                             <div class="contact-block">
                                 <form action="https://formsubmit.co/bda96ac900cf9e223cd3257d1e3f312d" method="post" autocomplete="on" >
-                                    <input style="color: white;" class="h-full-width" type="text" name="Name" placeholder="Name" />
-                                    <input style="color: white;" class="h-full-width" type="email" name="Email" placeholder="Email" />
-                                    <input style="color: white;" class="h-full-width" type="text" name="Mobile number" placeholder="Mobile number" />
-                                    <input style="color: white;" class="h-full-width" type="text" name="Message" placeholder="Message"/>
+                                    <input style="color: white;" class="h-full-width" type="text" name="Name" placeholder="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required=""/>
+                                    <input style="color: white;" class="h-full-width" type="email" name="Email" placeholder="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required=""/>
+                                    <input style="color: white;" class="h-full-width" type="text" name="Mobile number" placeholder="Mobile number"  value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required=""/>
+                                    <input style="color: white;" class="h-full-width" type="text" name="Message" placeholder="Message"  value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required=""/>
                                     <input type="hidden" name="_captcha" value="false">
                                     <input type="hidden" name="_autoresponse" value="your custom message">
                                     <input class="mailtoui btn btn--primary h-full-width" type="submit" value="Send">
