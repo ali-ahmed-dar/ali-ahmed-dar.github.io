@@ -2562,7 +2562,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .skill-bars-fat li {
-    height: 5.2rem;
+    height: 2rem;
     background: transparent;
     margin-bottom: 5.2rem;
     padding: 0;
@@ -2586,7 +2586,7 @@ input[type="button"].btn--primary:focus {
     background: var(--color-gray-3);
     position: relative;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 1px;
     overflow: hidden;
     position: relative;
 }
