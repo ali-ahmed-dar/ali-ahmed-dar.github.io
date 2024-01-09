@@ -86,10 +86,10 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
 :root {
     --font-1: "Inter", sans-serif;
-    --font-2: "IBM Plex Serif", serif;
+    --font-2: "Inter", sans-serif;
     /* monospace
      */
-    --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+    --font-mono: "Inter", sans-serif;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1260,9 +1260,13 @@ input[type="password"], textarea {
     -ms-flex: 0 0 20%;
     -webkit-box-flex: 0;
     flex: 0 0 20%;
-    max-width: 20%;
-}
+    max-width: 12.5%;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
 
+}
 .block-large-1-4>.column {
     -ms-flex: 0 0 25%;
     -webkit-box-flex: 0;
@@ -3918,7 +3922,6 @@ input[type="button"].btn--primary:focus {
 .resume-block__header-meta {
     font-family: var(--font-2);
     font-size: calc(var(--text-size) * 1.1111);
-    font-style: italic;
     margin-top: -.4rem;
     margin-bottom: var(--vspace-0_75);
 }
@@ -3980,7 +3983,7 @@ input[type="button"].btn--primary:focus {
  * ## portfolio list
  * ------------------------------------------------------------------- */
 .folio-list {
-    max-width: 80%;
+    max-width: 70%;
     margin-top: var(--vspace-2_5);
 }
 
