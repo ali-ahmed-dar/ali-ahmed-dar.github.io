@@ -1564,12 +1564,12 @@ input[type="password"], textarea {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 100%) {
     .w-500-stack, .block-500-stack>.column {
-        -ms-flex: 0 0 100%;
+        -ms-flex: 0 0 25%;
         -webkit-box-flex: 0;
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 25%;
+        max-width: 25%;
     }
 }
 
