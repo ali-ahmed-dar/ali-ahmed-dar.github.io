@@ -3984,7 +3984,7 @@ input[type="button"].btn--primary:focus {
  * ## portfolio list
  * ------------------------------------------------------------------- */
 .folio-list {
-    max-width: 70%;
+    max-width: 85%;
     margin-top: var(--vspace-2_5);
 }
 
