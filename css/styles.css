@@ -3984,8 +3984,10 @@ input[type="button"].btn--primary:focus {
  * ## portfolio list
  * ------------------------------------------------------------------- */
 .folio-list {
-    max-width: 85%;
-    margin-top: var(--vspace-2_5);
+    max-width: 100%;
+    margin-top: var(--vspace-1);
+    margin-bottom: var(--vspace-1);
+
 }
 
 .folio-item__thumb {
